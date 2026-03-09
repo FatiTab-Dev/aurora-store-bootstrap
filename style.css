@@ -27,20 +27,7 @@ button:hover{
 .logo{
 height:60px;
 }
- /*.title{
-background-image: url("img/bgimg.jpeg");
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- background-attachment: scroll;
- padding:200px 0;
- margin-bottom: 90px;
- text-align: center;
- display:flex;
-align-items:center;
-justify-content:center;
-}*/
-
+ 
 
 h1{
      background-color: rgba(249, 250, 216, 0.509);
