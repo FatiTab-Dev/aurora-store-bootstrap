@@ -40,19 +40,29 @@ background-image: url("img/bgimg.jpeg");
 align-items:center;
 justify-content:center;
 }*/
-.carousel h1{
-    background-color: rgba(249, 250, 216, 0.509);
+
+
+h1{
+     background-color: rgba(249, 250, 216, 0.509);
     border: 2px solid black;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.6rem;
+    text-wrap: wrap;
+    
     font-family: 'Times New Roman', Times, serif;
-     width:80%;
+     width:70%;
     margin:auto;
     padding:30px;
      color:black;
      text-shadow: 0  2px 8px rgba(0,0,0,0.2);
-
 }
+@media (max-width:450px){
+ h1{
+        font-size: 2rem; 
+    
+    }
+}
+
 .carousel img{
     object-fit:cover;
     height: 500px;
@@ -67,4 +77,5 @@ h4{
   
  
 }
+
 
