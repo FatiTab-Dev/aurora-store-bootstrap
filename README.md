@@ -1,4 +1,4 @@
-# Aurora Perfume Store 🧴
+# Aurora Perfume Store
 
 A simple responsive perfume store website built with **HTML, CSS, and Bootstrap **.
 
