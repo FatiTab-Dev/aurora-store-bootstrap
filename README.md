@@ -1,6 +1,6 @@
 # Aurora Perfume Store
 
-A simple responsive perfume store website built with **HTML, CSS, and Bootstrap **.
+A simple responsive perfume store website built with **HTML, CSS, and Bootstrap ,jQuery **.
 
 ## 🌐 Project Description
 
@@ -23,6 +23,7 @@ The website is fully responsive and designed using Bootstrap components such as 
 * HTML5
 * CSS3
 * Bootstrap 
+* JQuery
 
 ## 📂 Project Structure
 
@@ -35,5 +36,5 @@ aurora-perfume-store
 ## 👨‍💻 Author
 
 Created as a **Bootstrap learning project**.
-Made with ❤️ using Bootstrap  
+Made with ❤️ using Bootstrap  with jQuery 
  by  **FatiTab-Dev** 
