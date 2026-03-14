@@ -44,12 +44,11 @@ button:hover {
   height: 60px;
 }
 
-h1 {
+.carousel-caption h1 {
   background-color: rgba(249, 250, 216, 0.509);
   border: 2px solid $text-color;
-  font-weight: bold;
-  font-size: 2.6rem;
-  text-wrap: wrap;
+  font-weight: $bold !important;
+  font-size:2.5rem !important;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   width: 70%;
@@ -58,7 +57,12 @@ h1 {
   color: $text-color;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+h1 {
 
+ @include mobile;
+  font-size: 2rem;
+    
+}
 body,
 footer {
   transition: 0.3s;
@@ -70,10 +74,8 @@ footer {
   }
 }
 
-h1 {
-  @include mobile;
-  font-size: 2rem;
-}
+
+
 
 .carousel img {
   object-fit: cover;
