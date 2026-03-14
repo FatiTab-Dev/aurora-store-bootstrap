@@ -39,6 +39,6 @@ aurora-perfume-store/
 
 ## 👨‍💻 Author
 
-Created as a **Bootstrap learning project**.
-Made with ❤️ using Bootstrap  with jQuery 
+Created as a **learning project**.
+Made with ❤️ using Bootstrap  with jQuery ,Sass
  by  **FatiTab-Dev** 
