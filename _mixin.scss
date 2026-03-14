@@ -1,0 +1,33 @@
+
+    $theme:light;
+ @mixin theme-logic($mode) {
+  @if $mode == "light" {
+    background-color: $light-bg;
+    color: $text-light;
+  } 
+  @else if $mode == "dark" {
+    background-color: $dark-bg;
+    color: $text-dark;
+
+    .card {
+        background-color: $card-bg;
+        color: $text-dark;
+    }
+    footer{
+         background-color: $dark-bg;
+        color: $text-dark;
+    }
+    .navbar { 
+        background-color: $navbar-bg !important; 
+    }
+    #modeBtn,.btn-delete{
+      background-color: #b8b8b886;
+    }
+  }
+}
+ 
+@mixin mobile{
+  @media (max-width:450px){
+    @content;
+  }
+}

@@ -1,0 +1,96 @@
+@import "variable";
+@import "mixin";
+
+body {
+  background-color: $main-bg;
+}
+#modeBtn {
+  width: $widthheight-mode;
+  height: $widthheight-mode;
+  border: 0.09px solid #333333a5;
+}
+.btn-delete {
+  border: 0.09px solid #333333a5;
+}
+.card {
+  width: $card-width;
+  height: $card-height;
+  margin: 10px auto;
+  overflow: hidden;
+  img {
+    height: 220px;
+    object-fit: cover;
+  }
+}
+
+.price {
+  visibility: hidden;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: $bold;
+  font-size: 1.1rem;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(135, 139, 2, 0.484);
+  transform: scale(1.05);
+}
+button:hover {
+  box-shadow: 0 5px 15px rgba(127, 123, 1, 0.486);
+  cursor: pointer;
+}
+/* Navbar */
+
+/* Logo */
+.logo {
+  height: 60px;
+}
+
+h1 {
+  background-color: rgba(249, 250, 216, 0.509);
+  border: 2px solid $text-color;
+  font-weight: bold;
+  font-size: 2.6rem;
+  text-wrap: wrap;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  color: $text-color;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body,
+footer {
+  transition: 0.3s;
+
+  @include theme-logic("light");
+
+  &.dark-mode {
+    @include theme-logic("dark");
+  }
+}
+
+h1 {
+  @include mobile;
+  font-size: 2rem;
+}
+
+.carousel img {
+  object-fit: cover;
+  height: 500px;
+}
+
+h4 {
+  font-family: "Georgia", serif;
+  font-size: small;
+  font-style: italic;
+  color: #312902e4;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
